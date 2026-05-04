@@ -113,7 +113,7 @@ def load_settings() -> Settings:
     # Load local `.env` for development without affecting container/prod env behavior.
     load_dotenv()
 
-    base_dir = Path(__file__).resolve().parents[2]
+    base_dir = Path(__file__).resolve().parents[2] # levels up to the project root
 
     data_dir = Path(_read_env_str("DATA_DIR", str(base_dir / "data")))
     vector_db_dir = Path(_read_env_str("VECTOR_DB_DIR", str(base_dir / "chroma_db")))
