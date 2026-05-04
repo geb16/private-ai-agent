@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.uv_cache/
+
+# Local secrets and runtime artifacts
+.env
+.env.*
+!.env.example
+chroma_db/
+
+# Notebook artifacts
+.ipynb_checkpoints/

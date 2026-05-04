@@ -1,0 +1,6 @@
+Invoice approval policy:
+Invoices below £1,000 can be approved by Finance Associate.
+Invoices between £1,000 and £10,000 require Finance Manager approval.
+Invoices above £10,000 require CFO approval.
+Duplicate invoices must be flagged for manual review.
+Invoices without PO number must not be paid automatically.

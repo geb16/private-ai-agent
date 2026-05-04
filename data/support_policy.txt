@@ -1,0 +1,5 @@
+Support policy:
+Password reset issues are low priority unless affecting multiple users.
+Payment failure affecting active customers is high priority.
+Security incidents must be marked urgent and escalated to human support.
+Refund requests above £500 require human approval.
